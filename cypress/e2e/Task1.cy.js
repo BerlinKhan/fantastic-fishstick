@@ -62,7 +62,9 @@ describe('Cowlar Task 1', () => {
     cy.get('.modal-content').should('contain', 'Address 1'); // Verify Current Address
     cy.get('.modal-content').should('contain', 'NCR'); // Verify State
     cy.get('.modal-content').should('contain', 'Delhi'); // Verify City
-
+    
+    cy.wait(2000)
+    
     // Closing the Modal
     cy.get('#closeLargeModal').click();
   });
