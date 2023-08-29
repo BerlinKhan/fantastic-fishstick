@@ -1,4 +1,4 @@
-describe('Cypress Form Test', () => {
+describe('Cowlar Task 1', () => {
   it('Fills out the form and verifies modal information', () => {
    
     // Changing the viewport as the website was not responsive on default view.
